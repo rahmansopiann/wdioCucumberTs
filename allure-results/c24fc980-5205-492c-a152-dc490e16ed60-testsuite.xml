@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1677041575281' stop='1677041576618'>
+    <name>Category: Unsuccessfully Add new category</name>
+    <title>Category: Unsuccessfully Add new category</title>
+    <test-cases>
+        <test-case start='1677041575281' status='passed' stop='1677041575282'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1677041575282' status='passed' stop='1677041576050'>
+            <name>Given I am on category page</name>
+            <title>Given I am on category page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1677041575283' status='passed' stop='1677041575489'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fb095c4c-a9e7-4d3a-b3ab-ac86ce6b5356-attachment.json' type='application/json' size='217'/>
+                        <attachment title='Response' source='6655a800-9cee-4d63-9f7b-3a31e45de250-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677041575493' status='passed' stop='1677041576050'>
+                    <name>POST /session/:sessionId/element/9853941b-85e6-4a73-a5b7-6bfca20134b7/click</name>
+                    <title>POST /session/:sessionId/element/9853941b-85e6-4a73-a5b7-6bfca20134b7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1677041576050' status='passed' stop='1677041576611'>
+            <name>When I click button tambah</name>
+            <title>When I click button tambah</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1677041576051' status='passed' stop='1677041576167'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b42fe404-e3fa-4c2b-94d8-c52934d7aee3-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='a100eb3d-afb9-4413-b5d9-9c3b7eec4f5a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677041576172' status='passed' stop='1677041576611'>
+                    <name>POST /session/:sessionId/element/e92b4459-db34-4004-9c8b-0f40e163285c/click</name>
+                    <title>POST /session/:sessionId/element/e92b4459-db34-4004-9c8b-0f40e163285c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1677041576611' status='broken' stop='1677041576614'>
+            <name>When I input  as nama</name>
+            <title>When I input  as nama</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I input  as nama" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I input  as nama" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\User\wdioCucumberTs\features\category.feature):1:1
+                	at Scenario(Unsuccessfully Add new category):23:1
+                	at Step(I input &lt;nama> as nama):27:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1677041576614' status='broken' stop='1677041576615'>
+            <name>When I input  as description</name>
+            <title>When I input  as description</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I input  as description" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I input  as description" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\User\wdioCucumberTs\features\category.feature):1:1
+                	at Scenario(Unsuccessfully Add new category):23:1
+                	at Step(I input &lt;deskripsi> as description):28:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1677041576615' status='pending' stop='1677041576616'>
+            <name>When I click button simpan</name>
+            <title>When I click button simpan</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1677041576616' status='pending' stop='1677041576616'>
+            <name>Then I should see error message</name>
+            <title>Then I should see error message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1677041576616' status='passed' stop='1677041576617'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
