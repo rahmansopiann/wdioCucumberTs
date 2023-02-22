@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)\"}\n  (Session info: chrome=110.0.5481.104)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x003237D3]\n\t(No symbol) [0x002B8B81]\n\t(No symbol) [0x001BB36D]\n\t(No symbol) [0x001ED382]\n\t(No symbol) [0x001ED4BB]\n\t(No symbol) [0x00223302]\n\t(No symbol) [0x0020B464]\n\t(No symbol) [0x00221215]\n\t(No symbol) [0x0020B216]\n\t(No symbol) [0x001E0D97]\n\t(No symbol) [0x001E253D]\n\tGetHandleVerifier [0x0059ABF2+2510930]\n\tGetHandleVerifier [0x005C8EC1+2700065]\n\tGetHandleVerifier [0x005CC86C+2714828]\n\tGetHandleVerifier [0x003D3480+645344]\n\t(No symbol) [0x002C0FD2]\n\t(No symbol) [0x002C6C68]\n\t(No symbol) [0x002C6D4B]\n\t(No symbol) [0x002D0D6B]\n\tBaseThreadInitThunk [0x75CD00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x777C7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x777C7B8E+238]\n"
+}

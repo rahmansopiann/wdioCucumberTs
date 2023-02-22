@@ -257,11 +257,8 @@ export const config: Options.Testrunner = {
      * @param {IPickle}            scenario scenario pickle
      * @param {Object}             context  Cucumber World object
      */
-    afterStep: async function (step, scenario, { error, duration, passed }, context) {
-        if (error) {
-          await browser.takeScreenshot();
-        }
-      }
+    // beforeStep: function (step, scenario, context) {
+    // },
     /**
      *
      * Runs after a Cucumber Step.
