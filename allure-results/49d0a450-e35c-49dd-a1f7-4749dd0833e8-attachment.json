@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#button[id=\"menu-button-8\"]\"}\n  (Session info: chrome=110.0.5481.104)",
-  "stacktrace": "Backtrace:\n\t(No symbol) [0x002737D3]\n\t(No symbol) [0x00208B81]\n\t(No symbol) [0x0010B36D]\n\t(No symbol) [0x0013D382]\n\t(No symbol) [0x0013D4BB]\n\t(No symbol) [0x00173302]\n\t(No symbol) [0x0015B464]\n\t(No symbol) [0x00171215]\n\t(No symbol) [0x0015B216]\n\t(No symbol) [0x00130D97]\n\t(No symbol) [0x0013253D]\n\tGetHandleVerifier [0x004EABF2+2510930]\n\tGetHandleVerifier [0x00518EC1+2700065]\n\tGetHandleVerifier [0x0051C86C+2714828]\n\tGetHandleVerifier [0x00323480+645344]\n\t(No symbol) [0x00210FD2]\n\t(No symbol) [0x00216C68]\n\t(No symbol) [0x00216D4B]\n\t(No symbol) [0x00220D6B]\n\tBaseThreadInitThunk [0x771900F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x779D7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x779D7B8E+238]\n\t(No symbol) [0x00000000]\n"
-}
